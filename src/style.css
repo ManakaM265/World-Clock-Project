@@ -12,6 +12,13 @@ body {
 h1 {
   text-align: center;
 }
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
 footer {
   text-align: center;
 }
