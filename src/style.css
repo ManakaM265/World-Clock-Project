@@ -1,7 +1,14 @@
 body {
   background-color: #f0d78c;
 }
-
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #fcfafa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 h1 {
   text-align: center;
 }
