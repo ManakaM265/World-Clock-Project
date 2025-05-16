@@ -16,6 +16,13 @@ function updateTime() {
   londonTime.innerHTML = londonCurrentTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
+
+  let dubai = document.querySelector("#dubai");
+  let dubaiDate = dubai.querySelector(".date");
+  let dubaiTime = dubai.querySelector(".time");
+  let dubaiCurrentTime = moment().tz("Asia/Dubai");
+  dubaiDate.innerHTML = moment().format("MMMM Do YYYY");
+  dubaiTime.innerHTML = dubaiCurrentTime.format("h:mm:ss [<small>]A[</small>]");
 }
 
 updateTime();
